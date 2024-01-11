@@ -4,6 +4,8 @@ import "./App.css";
 // Components
 import InputToDo from "./components/InputToDo";
 
+import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+
 function App() {
   const [count, setCount] = useState(0);
 
