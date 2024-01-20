@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 // Components
 import InputToDo from "./components/InputToDo";
+import ListToDo from "./components/ListToDo";
 
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <div>
         <InputToDo />
+        <ListToDo />
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
